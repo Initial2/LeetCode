@@ -82,7 +82,7 @@ class Solution {
             temp.next = l2Head;
         }
         
-        //如果是l1遍历完了
+        //如果是l2遍历完了
         if (l2Head == null) {
             temp.next = l1Head;
         }
