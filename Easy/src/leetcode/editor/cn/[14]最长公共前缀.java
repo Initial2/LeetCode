@@ -1,4 +1,5 @@
-//编写一个函数来查找字符串数组中的最长公共前缀。 
+package leetcode.editor.cn;
+//编写一个函数来查找字符串数组中的最长公共前缀。
 //
 // 如果不存在公共前缀，返回空字符串 ""。 
 //
@@ -32,7 +33,7 @@
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class LongestCommonPrefix {
     public String longestCommonPrefix(String[] strs) {
         //默认最长公共前缀为第一个字符串.
         String commonPrefix = strs[0];

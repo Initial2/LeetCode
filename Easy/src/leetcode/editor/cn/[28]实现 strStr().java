@@ -1,4 +1,5 @@
-//实现 strStr() 函数。 
+package leetcode.editor.cn;
+//实现 strStr() 函数。
 //
 // 给你两个字符串 haystack 和 needle ，请你在 haystack 字符串中找出 needle 字符串出现的第一个位置（下标从 0 开始）。如
 //果不存在，则返回 -1 。 
@@ -52,7 +53,7 @@
  * 解题思路:
  * 使用KMP算法
  */
-class Solution {
+class StrStr {
     public int strStr(String haystack, String needle) {
         //1.首先排除特殊情况
         if (needle.length() == 0) {

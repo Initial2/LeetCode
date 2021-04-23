@@ -55,7 +55,7 @@ import java.util.HashMap;
  * 执行用时：0 ms, 在所有 Java 提交中击败了100.00%的用户
  * 内存消耗：38.7 MB, 在所有 Java 提交中击败了36.83%的用户
  */
-class Solution {
+class TwoSum {
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> hashMap = new HashMap<>(103);
         //遍历nums数组

@@ -1,4 +1,5 @@
-//将两个升序链表合并为一个新的 升序 链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。 
+package leetcode.editor.cn;
+//将两个升序链表合并为一个新的 升序 链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。
 //
 // 
 //
@@ -52,7 +53,7 @@
  * <p>
  * 如果有任何一个遍历到头了, 那么只需把result.next 指向那个还没有遍历完的链表即可.
  */
-class Solution {
+class MergeTwoLists {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         //存放结果的链表
         ListNode resultHead = new ListNode();

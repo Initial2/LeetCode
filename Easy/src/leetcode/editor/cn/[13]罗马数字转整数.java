@@ -75,8 +75,7 @@ package leetcode.editor.cn;
 // 👍 1288 👎 0
 
 
-class Solution {
-    
+class RomanToInt {
     public int romanToInt(String string) {
         char[] chars = string.toCharArray();
         int result = 0;

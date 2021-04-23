@@ -56,7 +56,7 @@ package leetcode.editor.cn;//给你一个有序数组 nums ，请你 原地 删�
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class RemoveDuplicates {
     
     public int removeDuplicates(int[] nums) {
         //首先排除特殊情况

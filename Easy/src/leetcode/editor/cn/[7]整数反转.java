@@ -71,7 +71,7 @@ package leetcode.editor.cn;
  * 执行用时：1 ms, 在所有 Java 提交中击败了100.00%的用户
  * 内存消耗：35.5 MB, 在所有 Java 提交中击败了70.30%的用户
  */
-class Solution {
+class Reverse {
     public int reverse(int x) {
         int result = 0;
         while (x != 0) {
