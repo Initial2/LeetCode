@@ -65,6 +65,7 @@
  * 需要双指针
  */
 class Solution {
+    
     public int removeElement(int[] nums, int val) {
         //排除特殊情况
         if (nums.length == 0) {
