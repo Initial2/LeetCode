@@ -1,0 +1,23 @@
+class Solution {
+    public int lengthOfLastWord(String s) {
+        
+       
+        
+        
+        int maxLength = 0;
+        int perWordLength = 0;
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) != ' '){
+                perWordLength++;
+                maxLength = perWordLength;
+            }else{
+                perWordLength = 0;
+            }
+            
+        }
+        return maxLength;
+    }
+}
+
+//runtime:2 ms
+//memory:36.6 MB

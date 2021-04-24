@@ -55,17 +55,8 @@ package leetcode.editor.cn;
 // 👍 3158 👎 0
 
 
-import org.junit.jupiter.api.Test;
-
 //leetcode submit region begin(Prohibit modification and deletion)
-class MaxSubArray {
-    
-    @Test
-    public void test() {
-        int[] nums = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
-        System.out.println(maxSubArray(nums));
-    }
-    
+class Solution {
     
     public int maxSubArray(int[] nums) {
         //1. 使用动态规划算法
