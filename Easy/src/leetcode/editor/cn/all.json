@@ -847,7 +847,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "70",
-    "status": "",
+    "status": "ac",
     "title": "爬楼梯",
     "titleSlug": "climbing-stairs"
   },
