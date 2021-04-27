@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[1011]在 D 天内送达包裹的能力",
-    "frontendQuestionId": "1011",
+    "formTitle": "[938]二叉搜索树的范围和",
+    "frontendQuestionId": "938",
     "leaf": true,
-    "level": 2,
+    "level": 1,
     "nodeType": "def",
-    "questionId": "1056",
+    "questionId": "975",
     "status": "",
-    "title": "在 D 天内送达包裹的能力",
-    "titleSlug": "capacity-to-ship-packages-within-d-days"
+    "title": "二叉搜索树的范围和",
+    "titleSlug": "range-sum-of-bst"
   },
   {
     "articleLive": 2,
@@ -835,7 +835,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "69",
-    "status": "",
+    "status": "ac",
     "title": "x 的平方根",
     "titleSlug": "sqrtx"
   },
@@ -11257,18 +11257,6 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[938]二叉搜索树的范围和",
-    "frontendQuestionId": "938",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "975",
-    "status": "",
-    "title": "二叉搜索树的范围和",
-    "titleSlug": "range-sum-of-bst"
-  },
-  {
-    "articleLive": 2,
     "formTitle": "[939]最小面积矩形",
     "frontendQuestionId": "939",
     "leaf": true,
@@ -12130,6 +12118,18 @@
     "status": "",
     "title": "总持续时间可被 60 整除的歌曲",
     "titleSlug": "pairs-of-songs-with-total-durations-divisible-by-60"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1011]在 D 天内送达包裹的能力",
+    "frontendQuestionId": "1011",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1056",
+    "status": "",
+    "title": "在 D 天内送达包裹的能力",
+    "titleSlug": "capacity-to-ship-packages-within-d-days"
   },
   {
     "articleLive": 2,
