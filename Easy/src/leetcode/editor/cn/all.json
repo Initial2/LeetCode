@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[938]二叉搜索树的范围和",
-    "frontendQuestionId": "938",
+    "formTitle": "[633]平方数之和",
+    "frontendQuestionId": "633",
     "leaf": true,
-    "level": 1,
+    "level": 2,
     "nodeType": "def",
-    "questionId": "975",
+    "questionId": "633",
     "status": "",
-    "title": "二叉搜索树的范围和",
-    "titleSlug": "range-sum-of-bst"
+    "title": "平方数之和",
+    "titleSlug": "sum-of-square-numbers"
   },
   {
     "articleLive": 2,
@@ -1003,7 +1003,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "83",
-    "status": "",
+    "status": "ac",
     "title": "删除排序链表中的重复元素",
     "titleSlug": "remove-duplicates-from-sorted-list"
   },
@@ -7597,18 +7597,6 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[633]平方数之和",
-    "frontendQuestionId": "633",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "633",
-    "status": "",
-    "title": "平方数之和",
-    "titleSlug": "sum-of-square-numbers"
-  },
-  {
-    "articleLive": 2,
     "formTitle": "[634]寻找数组的错位排列",
     "frontendQuestionId": "634",
     "leaf": true,
@@ -11254,6 +11242,18 @@
     "status": "",
     "title": "重新排列日志文件",
     "titleSlug": "reorder-data-in-log-files"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[938]二叉搜索树的范围和",
+    "frontendQuestionId": "938",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "975",
+    "status": "",
+    "title": "二叉搜索树的范围和",
+    "titleSlug": "range-sum-of-bst"
   },
   {
     "articleLive": 2,
