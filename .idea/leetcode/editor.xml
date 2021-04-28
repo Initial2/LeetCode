@@ -3,6 +3,14 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="$PROJECT_DIR$/Code/src/leetcode/editor/cn/[1290]二进制链表转整数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/Code/src/leetcode/editor/cn/[1290]二进制链表转整数.java" />
+              <option name="questionId" value="1411" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/Code/src/leetcode/editor/cn/[141]环形链表.java">
           <value>
             <LeetcodeEditor>
