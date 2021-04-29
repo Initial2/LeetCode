@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[633]平方数之和",
-    "frontendQuestionId": "633",
+    "formTitle": "[403]青蛙过河",
+    "frontendQuestionId": "403",
     "leaf": true,
-    "level": 2,
+    "level": 3,
     "nodeType": "def",
-    "questionId": "633",
+    "questionId": "403",
     "status": "",
-    "title": "平方数之和",
-    "titleSlug": "sum-of-square-numbers"
+    "title": "青蛙过河",
+    "titleSlug": "frog-jump"
   },
   {
     "articleLive": 2,
@@ -235,7 +235,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "19",
-    "status": "",
+    "status": "ac",
     "title": "删除链表的倒数第 N 个结点",
     "titleSlug": "remove-nth-node-from-end-of-list"
   },
@@ -1063,7 +1063,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "88",
-    "status": "",
+    "status": "ac",
     "title": "合并两个有序数组",
     "titleSlug": "merge-sorted-array"
   },
@@ -1699,7 +1699,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "141",
-    "status": "",
+    "status": "ac",
     "title": "环形链表",
     "titleSlug": "linked-list-cycle"
   },
@@ -2479,7 +2479,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "206",
-    "status": "",
+    "status": "ac",
     "title": "反转链表",
     "titleSlug": "reverse-linked-list"
   },
@@ -2851,7 +2851,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "237",
-    "status": "",
+    "status": "ac",
     "title": "删除链表中的节点",
     "titleSlug": "delete-node-in-a-linked-list"
   },
@@ -4834,18 +4834,6 @@
     "status": "",
     "title": "移掉K位数字",
     "titleSlug": "remove-k-digits"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[403]青蛙过河",
-    "frontendQuestionId": "403",
-    "leaf": true,
-    "level": 3,
-    "nodeType": "def",
-    "questionId": "403",
-    "status": "",
-    "title": "青蛙过河",
-    "titleSlug": "frog-jump"
   },
   {
     "articleLive": 2,
@@ -7597,6 +7585,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[633]平方数之和",
+    "frontendQuestionId": "633",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "633",
+    "status": "",
+    "title": "平方数之和",
+    "titleSlug": "sum-of-square-numbers"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[634]寻找数组的错位排列",
     "frontendQuestionId": "634",
     "leaf": true,
@@ -8869,14 +8869,14 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[740]删除与获得点数",
+    "formTitle": "[740]删除并获得点数",
     "frontendQuestionId": "740",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
     "questionId": "740",
     "status": "",
-    "title": "删除与获得点数",
+    "title": "删除并获得点数",
     "titleSlug": "delete-and-earn"
   },
   {
@@ -10507,7 +10507,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "908",
-    "status": "",
+    "status": "ac",
     "title": "链表的中间结点",
     "titleSlug": "middle-of-the-linked-list"
   },
@@ -15475,7 +15475,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "1411",
-    "status": "",
+    "status": "ac",
     "title": "二进制链表转整数",
     "titleSlug": "convert-binary-number-in-a-linked-list-to-integer"
   },
@@ -22591,7 +22591,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "100282",
-    "status": "",
+    "status": "ac",
     "title": "从尾到头打印链表",
     "titleSlug": "cong-wei-dao-tou-da-yin-lian-biao-lcof"
   },
@@ -22795,7 +22795,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "100294",
-    "status": "",
+    "status": "ac",
     "title": "链表中倒数第k个节点",
     "titleSlug": "lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof"
   },
@@ -22807,7 +22807,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "100298",
-    "status": "",
+    "status": "ac",
     "title": "反转链表",
     "titleSlug": "fan-zhuan-lian-biao-lcof"
   },
@@ -23575,7 +23575,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "1000007",
-    "status": "",
+    "status": "ac",
     "title": "返回倒数第 k 个节点",
     "titleSlug": "kth-node-from-end-of-list-lcci"
   },
@@ -23587,7 +23587,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "100187",
-    "status": "",
+    "status": "ac",
     "title": "删除中间节点",
     "titleSlug": "delete-middle-node-lcci"
   },

@@ -10,7 +10,7 @@
 然后还有一些特殊情况就是当出现 *99*、*999* 之类的数字时，循环到最后也需要进位，出现这种情况时需要手动将它进一位。
 
 ```Java []
-class Solution {
+class linkdelist.linkdelist.linkdelist.linkdelist.linkdelist.Solution {
     public int[] plusOne(int[] digits) {
         for (int i = digits.length - 1; i >= 0; i--) {
             digits[i]++;
