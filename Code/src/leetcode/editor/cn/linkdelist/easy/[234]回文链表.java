@@ -1,4 +1,4 @@
-package linkdelist;//请判断一个链表是否为回文链表。
+package leetcode.editor.cn.linkdelist.easy;//请判断一个链表是否为回文链表。
 //
 // 示例 1: 
 //

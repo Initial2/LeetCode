@@ -1,4 +1,4 @@
-package linkdelist;//给定一个头结点为 head 的非空单链表，返回链表的中间结点。
+package leetcode.editor.cn.linkdelist.easy;//给定一个头结点为 head 的非空单链表，返回链表的中间结点。
 //
 // 如果有两个中间结点，则返回第二个中间结点。 
 //
@@ -36,7 +36,6 @@ package linkdelist;//给定一个头结点为 head 的非空单链表，返回�
 
 //leetcode submit region begin(Prohibit modification and deletion)
 
-import java.util.ArrayList;
 
 /**
  * Definition for singly-linked list.

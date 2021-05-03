@@ -1,4 +1,4 @@
-package linkdelist;//输入两个链表，找出它们的第一个公共节点。
+package leetcode.editor.cn.linkdelist.easy;//输入两个链表，找出它们的第一个公共节点。
 //
 // 如下面的两个链表： 
 //

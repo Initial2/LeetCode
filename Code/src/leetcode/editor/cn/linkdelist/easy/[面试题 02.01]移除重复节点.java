@@ -1,4 +1,4 @@
-package linkdelist;//编写代码，移除未排序链表中的重复节点。保留最开始出现的节点。
+package leetcode.editor.cn.linkdelist.easy;//编写代码，移除未排序链表中的重复节点。保留最开始出现的节点。
 //
 // 示例1: 
 //

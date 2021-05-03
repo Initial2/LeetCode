@@ -1,4 +1,4 @@
-package linkdelist;//编写一个函数，检查输入的链表是否是回文的。
+package leetcode.editor.cn.linkdelist.easy;//编写一个函数，检查输入的链表是否是回文的。
 //
 // 
 //
@@ -25,7 +25,6 @@ package linkdelist;//编写一个函数，检查输入的链表是否是回文�
 //leetcode submit region begin(Prohibit modification and deletion)
 
 import java.util.ArrayList;
-import java.util.Stack;
 
 /**
  * Definition for singly-linked list.

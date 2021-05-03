@@ -1,4 +1,4 @@
-package linkdelist;//编写一个程序，找到两个单链表相交的起始节点。
+package leetcode.editor.cn.linkdelist.easy;//编写一个程序，找到两个单链表相交的起始节点。
 //
 // 如下面的两个链表： 
 //
