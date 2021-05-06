@@ -1,4 +1,4 @@
-package leetcode.editor.cn.array.easy;//给定一个非负整数 numRows，生成杨辉三角的前 numRows 行。
+package leetcode.editor.cn.array.easy.leetcode.editor.cn;//给定一个非负整数 numRows，生成杨辉三角的前 numRows 行。
 //
 // 
 //
