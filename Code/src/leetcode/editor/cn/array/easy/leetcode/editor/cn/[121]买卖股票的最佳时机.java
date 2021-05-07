@@ -38,7 +38,7 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int maxProfit(int[] prices) {
-        //从后向前遍历。
+        //从头开始遍历。
         //最大收益
         int maxProfit = 0;
         //最低购入价 默认从第一天开始购入。
