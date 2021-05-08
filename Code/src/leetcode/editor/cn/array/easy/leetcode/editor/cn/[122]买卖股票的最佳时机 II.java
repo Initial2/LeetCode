@@ -60,7 +60,7 @@ class Solution {
             }
             /*如果后续出售价格大于之前出售价格. 就要分情况
             情况1:　当前ｉ没到末尾，后续的出售价格比当前ｉ低．那么就卖出股票，更新收益．　重设购入价为默认值．
-            情况２：　当前ｉ已经到结尾了，　那么就直接卖了即可．　
+            情况2：　当前ｉ已经到结尾了，　那么就直接卖了即可．　
             */
             if (prices[i] > minBuyPrice && (i + 1 == prices.length || prices[i + 1] <= prices[i])) {
                 maxProfit += prices[i] - minBuyPrice;
