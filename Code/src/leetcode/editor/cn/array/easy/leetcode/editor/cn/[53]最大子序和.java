@@ -1,4 +1,4 @@
-package leetcode.editor.cn;
+package leetcode.editor.cn.array.easy.leetcode.editor.cn;
 //给定一个整数数组 nums ，找到一个具有最大和的连续子数组（子数组最少包含一个元素），返回其最大和。
 //
 // 
