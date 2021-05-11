@@ -1,0 +1,85 @@
+class Solution {
+    public String addStrings(String num1, String num2) {
+        num1 = num1.toCharArray();
+        num2 = num2.toCharArray();
+        int last1 = num1.length-1;
+        int last2 = num2.length-1;
+        int cul = -1;
+        boolean flag = false;
+        StringBuilder result = new StringBuilder();
+
+        while(last1 >= 0 && last2 >= 0){
+            int ele1 =Integer.parseInt(num1[last1]+"");
+            int ele2 =Integer.parseInt(num2[last2]+""); 
+
+            cul= (flag)? ele1 + ele2 + 1 :  ele1 + ele2 ;
+            flag = cul >= 10;
+            cul = cul % 10;
+            last2--;
+            last1--;
+            result.append(cul+"");
+           
+        }
+    
+
+        if(last1 < 0){
+            while(last2 >= 0){
+                int ele2 =Integer.valueOf(num2[last2]+"");
+
+                cul = (flag)? ele2 + 1 : ele2;
+                flag = cul >=10;
+                cul = cul % 10;
+                last2--;
+                result.append(cul+"");
+            }                      
+        }
+        if(last2 < 0){
+            while(last1 >= 0){
+                int ele1 = Integer.valueOf(num1[last1]+"");
+                cul = (flag)? ele1 + 1 : ele1;
+                flag = cul >=10;
+                cul = cul % 10;
+                last1--;
+                result.append(cul+"");
+            }         
+        }
+
+        if(flag){
+            int num =Integer.parseInt(result.charAt(result.length()-1)+"");
+            cul = 1;
+            result.append(cul+"");     
+        }
+
+       return result.reverse().toString();
+    }
+}
+//total_correct:0
+//compile_error:Line 3: error: incompatible types: char[] cannot be converted to String
+        num1 = num1.toCharArray();
+                               ^
+Line 4: error: incompatible types: char[] cannot be converted to String
+        num2 = num2.toCharArray();
+                               ^
+Line 5: error: cannot find symbol
+        int last1 = num1.length-1;
+                        ^
+  symbol:   variable length
+  location: variable num1 of type String
+Line 6: error: cannot find symbol
+        int last2 = num2.length-1;
+                        ^
+  symbol:   variable length
+  location: variable num2 of type String
+Line 12: error: array required, but String found
+            int ele1 =Integer.parseInt(num1[last1]+"");
+                                           ^
+Line 13: error: array required, but String found
+            int ele2 =Integer.parseInt(num2[last2]+"");
+                                           ^
+Line 27: error: array required, but String found
+                int ele2 =Integer.valueOf(num2[last2]+"");
+                                              ^
+Line 38: error: array required, but String found
+                int ele1 = Integer.valueOf(num1[last1]+"");
+                                               ^
+8 errors
